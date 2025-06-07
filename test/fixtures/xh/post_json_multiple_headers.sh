@@ -1,4 +1,4 @@
-http --verify=no \
+xh --verify=no \
   --verbose \
   :28139/rest/login-sessions \
   Content-Type:application/json \

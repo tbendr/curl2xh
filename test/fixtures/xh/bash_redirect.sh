@@ -1,4 +1,4 @@
-http -a USER:PASS \
+xh -a USER:PASS \
   :28139/api/2.0/fo/auth/unix/ \
   X-Requested-With:curl \
   Content-Type:text/xml \

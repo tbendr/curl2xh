@@ -1,4 +1,4 @@
-http :28139/cookies \
+xh :28139/cookies \
   Pragma:no-cache \
   "Accept-Encoding:gzip, deflate, br" \
   "Accept-Language:en-US,en;q=0.9" \

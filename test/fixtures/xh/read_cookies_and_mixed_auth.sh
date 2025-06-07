@@ -1,1 +1,1 @@
-http -a user:pass :28139 "Authorization:Bearer AAAAAAAAAAAA"
+xh -a user:pass :28139 "Authorization:Bearer AAAAAAAAAAAA"

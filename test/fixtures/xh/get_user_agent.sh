@@ -1,4 +1,4 @@
-http --follow \
+xh --follow \
   :28139/vc/moviesmagic \
   x-msisdn:XXXXXXXXXXXXX \
   "user-agent:Mozilla Android6.1" \

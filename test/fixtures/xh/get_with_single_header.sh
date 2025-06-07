@@ -1,1 +1,1 @@
-http :28139/ foo:bar
+xh :28139/ foo:bar

@@ -91,7 +91,7 @@ Choose the output language by passing `--language <language>`. The options are
 - `har`
 - `http`
 - `httpie`
-- `xh`
+- `xh` (the Rust reimplementation of HTTPie)
 - `java`, `java-httpurlconnection`, `java-jsoup`, `java-okhttp`
 - `javascript`, `javascript-jquery`, `javascript-xhr`
 - `json`

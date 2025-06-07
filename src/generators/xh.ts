@@ -8,14 +8,19 @@ import type { Request, Warnings } from "../parse.js";
 export const supportedArgs = supportedArgsHttpie;
 
 export function _toXh(requests: Request[], warnings: Warnings = []): string {
-  return _toHttpie(requests, warnings);
+  const httpie = _toHttpie(requests, warnings);
+  return httpie.replace(/^https(?= )/gm, "xhs").replace(/^http(?= )/gm, "xh");
 }
 
 export function toXhWarn(
   curlCommand: string | string[],
   warnings: Warnings = [],
 ): [string, Warnings] {
-  return toHttpieWarn(curlCommand, warnings);
+  const [httpie, warns] = toHttpieWarn(curlCommand, warnings);
+  const xh = httpie
+    .replace(/^https(?= )/gm, "xhs")
+    .replace(/^http(?= )/gm, "xh");
+  return [xh, warns];
 }
 
 export function toXh(curlCommand: string | string[]): string {

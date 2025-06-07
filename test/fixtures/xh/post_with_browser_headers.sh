@@ -1,4 +1,4 @@
-http POST \
+xh POST \
   :28139/ajax/demo_post.asp \
   Origin:http://www.w3schools.com \
   "Accept-Encoding:gzip, deflate" \
