@@ -1,1 +1,1 @@
-http -a :some_password :28139/
+xh -a :some_password :28139/

@@ -1,4 +1,4 @@
-http --multipart \
+xh --multipart \
   :28139/api/library \
   accept:application/json \
   Content-Type:multipart/form-data \

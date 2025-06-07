@@ -1,4 +1,4 @@
-http --form \
+xh --form \
   :28139/post \
   Content-Type:application/x-www-form-urlencoded \
   "data1=data1" \

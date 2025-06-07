@@ -1,4 +1,4 @@
-http -a "ol':asd\"" \
+xh -a "ol':asd\"" \
   --raw "a=b&c=\"&d='" \
   :28139 \
   "A:''a'" \

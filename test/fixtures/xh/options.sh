@@ -1,4 +1,4 @@
-http OPTIONS \
+xh OPTIONS \
   :28139/api/tunein/queue-and-play \
   Pragma:no-cache \
   Access-Control-Request-Method:POST \

@@ -1,4 +1,4 @@
-http --form \
+xh --form \
   GET \
   :28139/echo/html/ \
   Origin:http://fiddle.jshell.net \

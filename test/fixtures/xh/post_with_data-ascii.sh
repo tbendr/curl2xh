@@ -1,4 +1,4 @@
-http --form \
+xh --form \
   :28139/echo/html/ \
   Origin:http://fiddle.jshell.net \
   "Accept-Encoding:gzip, deflate" \

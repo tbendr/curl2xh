@@ -1,4 +1,4 @@
-http -a test: \
+xh -a test: \
   --multipart \
   --quiet \
   :28139/v3 \

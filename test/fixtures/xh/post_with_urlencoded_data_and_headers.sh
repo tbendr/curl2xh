@@ -1,4 +1,4 @@
-http --form \
+xh --form \
   :28139/api/Listing.svc/PropertySearch_Post \
   Origin:http://www.realtor.ca \
   "Accept-Encoding:gzip, deflate" \

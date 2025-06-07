@@ -1,1 +1,1 @@
-http DELETE :28139/page
+xh DELETE :28139/page
