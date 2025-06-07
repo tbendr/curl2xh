@@ -65,6 +65,16 @@ const executables = {
     },
     exec: "chmod +x /tmp/curlconverter/httpie/main && /tmp/curlconverter/httpie/main",
   },
+  xh: {
+    copy: function (contents: string) {
+      fs.writeFileSync(
+        "/tmp/curlconverter/xh/main",
+        contents.trimEnd() + " --ignore-stdin" + "\n",
+        "utf8",
+      );
+    },
+    exec: "chmod +x /tmp/curlconverter/xh/main && /tmp/curlconverter/xh/main",
+  },
   java: {
     copy: function (contents: string) {
       const [imports, ...rest] = contents.split("\n\n");

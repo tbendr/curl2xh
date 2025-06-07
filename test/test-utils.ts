@@ -90,6 +90,11 @@ const converters = {
     extension: ".sh",
     converter: curlconverter.toHttpie,
   },
+  xh: {
+    name: "xh",
+    extension: ".sh",
+    converter: curlconverter.toXh,
+  },
   java: {
     name: "Java + HttpClient",
     extension: ".java",

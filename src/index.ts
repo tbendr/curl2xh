@@ -9,6 +9,7 @@ export { toGo, toGoWarn } from "./generators/go.js";
 export { toHarString, toHarStringWarn } from "./generators/har.js";
 export { toHTTP, toHTTPWarn } from "./generators/http.js";
 export { toHttpie, toHttpieWarn } from "./generators/httpie.js";
+export { toXh, toXhWarn } from "./generators/xh.js";
 export { toJava, toJavaWarn } from "./generators/java/java.js";
 export {
   toJavaHttpUrlConnection,
