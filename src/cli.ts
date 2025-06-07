@@ -282,6 +282,7 @@ const translate: {
   har: [_toHarString, toHarStringWarn, supportedArgsHarString],
   http: [_toHTTP, toHTTPWarn, supportedArgsHTTP],
   httpie: [_toHttpie, toHttpieWarn, supportedArgsHttpie],
+  xh: [_toHttpie, toHttpieWarn, supportedArgsHttpie],
   java: [_toJava, toJavaWarn, supportedArgsJava],
   "java-httpurlconnection": [_toJavaHttpUrlConnection, toJavaHttpUrlConnectionWarn, supportedArgsJavaHttpUrlConnection],
   "java-jsoup": [_toJavaJsoup, toJavaJsoupWarn, supportedArgsJavaJsoup],
@@ -359,6 +360,7 @@ language: the language to convert the curl command to. The choices are
   har
   http
   httpie
+  xh
   java
   java-httpurlconnection
   java-jsoup
