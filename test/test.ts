@@ -103,18 +103,10 @@ for (const fileName of testFileNames) {
         console.error(e);
         process.exit(1);
       }
-      if (outputLanguage === "parser") {
-        test(fullTestName, (t) => {
-          // TODO: `actual` is a needless roundtrip
-          t.deepEquals(JSON.parse(actual), JSON.parse(expected));
-          t.end();
-        });
-      } else {
-        test(fullTestName, (t) => {
-          t.equal(actual, expected);
-          t.end();
-        });
-      }
+      test(fullTestName, (t) => {
+        t.equal(actual, expected);
+        t.end();
+      });
     }
   }
 }
